@@ -1,7 +1,7 @@
 #include "time.h"
 
 // constructor using initializer list
-Time::Time (int hours = 0, int minutes = 0)
+Time::Time (int hours, int minutes)
 	:hours{hours}, minutes{minutes}
 	{
 	}

@@ -2,7 +2,7 @@
  * Created by    : Rahul Kumar Nonia
  * File name     : operator++.h
  * Created on    : 19-06-2019
- * Last modified : Wednesday 19 June 2019 04:59:41 PM IST
+ * Last modified : Thursday 20 June 2019 03:49:22 PM IST
  * Description   : 
  * ***********************************************************************/
 
@@ -17,7 +17,7 @@ class Time {
 		int minutes;
 	
 	public:
-		Time (int , int );
+		Time (int hours = 0, int minutes = 0);
 		void displayTime();
 		
 		// calls --x, prefix

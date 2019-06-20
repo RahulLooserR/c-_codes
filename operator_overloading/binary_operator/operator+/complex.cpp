@@ -2,7 +2,7 @@
  * Created by    : Rahul Kumar Nonia
  * File name     : complex.cpp
  * Created on    : Thursday 20 June 2019 10:49:12 AM IST
- * Last modified : Thursday 20 June 2019 11:15:03 AM IST
+ * Last modified : Thursday 20 June 2019 03:12:11 PM IST
  * Description   : 
  * ***********************************************************************/
 
@@ -15,7 +15,7 @@ Complex::Complex (int real = 0, int imag = 0)
 
 void Complex::display()
 {
-	std::cout << "real: " << real << "\nimaginary: " << imag << std::endl;
+	std::cout << "real: " << real << ", imaginary: " << imag << std::endl;
 }
 
 Complex& Complex::operator + (const Complex &rhs) const
